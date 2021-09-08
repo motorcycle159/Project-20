@@ -17,11 +17,11 @@ function setup(){
     canvas = createCanvas(1000,800);
 
     mouse = createSprite(200, 600);
-    mouse.addAnimation("mouseStanding", mouseImg1);
+    if (mouse.addAnimation("mouseStanding", mouseImg1);
     mouse.scale = 0.15;
     
     cat = createSprite(900, 600);
-    cat.addAnimation("catSleeping", catImg1);
+    if (cat.addAnimation("catSleeping", catImg1);
     cat.scale = 0.25;
 
     makeCatWalk();
